@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>MSWD</title>
+  <link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+
+<body bgcolor="#B6C4B6">
+
+  <h2 align="center">Student Information System</h2>
+  
+  <nav>
+ <ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="registration.html">Registration</a></li>
+<li><a href="login.html">Login</a></li>
+<li><a href="contact.html">Contact Us</a></li>
+<li><a href="https://newerp.kluniversity.in/">ERP</a></li>
+</ul>
+  </nav>
+      <br><br>
+<center>
+<form method="post" action="#">
+<table>
+
+<tr>
+<td><label>Enter Studet ID</label></td>
+<td><input type="number" name="sid" required/></td>
+</tr>
+
+<tr>
+<td><label>Enter Full Name</label></td>
+<td><input type="text" name="sname" required/></td>
+</tr>
+
+<tr>
+<td><label>Select Gender</label></td>
+<td>
+<input type="radio" name="gender" value="MALE" required/>Male
+<input type="radio" name="gender" value="FEMALE" required/>Female
+<input type="radio" name="gender" value="OTHERS" required/>Others
+</td>
+</tr>
+
+<tr>
+  <td><label>Select Date of Birth</label></td>
+  <td><input type="date" name="dob" required/></td>
+</tr>
+
+<tr>
+<td><label>Select Department</label></td>
+<td>
+<select name="dept" required multiple>
+<option value="">--Select--</option>
+<option value="CSE">CSE</option>
+<option value="CS&IT">CS&IT</option>
+<option value="AI&DS">AI&DS</option>
+</select>
+</td>
+</tr>
+
+<tr>
+  <td><label>Select Program</label></td>
+  <td>
+  <select name="program" required>
+  <option value="">--Select--</option>
+  <option value="B.Tech.">B.Tech.</option>
+  <option value="M.Tech.">M.Tech.</option>
+  </select>
+  </td>
+</tr>
+
+<tr>
+  <td><label>Select Skill(s)</label></td>
+  <td>
+    <input type="checkbox" name="skills" value="C" required/>C
+    <input type="checkbox" name="skills" value="C++" required/>C++
+    <input type="checkbox" name="skills" value="JAVA" required/>JAVA
+  </td>
+</tr>
+
+<tr>
+  <td><label>Enter Year</label></td>
+  <td><input type="number" name="year" min="1" max="4" required/></td>
+</tr>
+
+<tr>
+  <td><label>Enter CGPA</label></td>
+  <td><input type="number" name="cgpa" step="0.01" min="0.00" max="10.00" required/></td>
+</tr>
+
+<tr>
+  <td><label>Enter Backlogs</label></td>
+  <td><input type="number" name="backlogs" min="0" max="15" required/></td>
+</tr>
+
+
+<tr>
+  <td><label>Enter Email ID</label></td>
+  <td><input type="email" name="emailid" required/></td>
+</tr>
+
+<tr>
+  <td><label>Enter Password</label></td>
+  <td><input type="password" name="pwd" required/></td>
+</tr>
+
+<tr>
+  <td><label>Enter Contact No</label></td>
+  <td><input type="text" name="contactno" pattern="[6789][0-9]{9}" placeholder="MUST be 10 Digits" required/></td>
+</tr>
+
+<tr>
+  <td><label>Enter Address</label></td>
+  <td>
+    <textarea name="address" required></textarea>
+  </td>
+</tr>
+
+<tr align="center">
+<td><input type="submit" value="Register" class="button"/>
+<td><input type="reset" value="Clear" class="button"/></td>
+</tr>
+
+
+</table>
+</form>
+</center>
+
+</body>
+
+</html>

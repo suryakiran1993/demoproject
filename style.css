@@ -1,0 +1,79 @@
+/* Resetting default margin and padding for the list items */
+ul, ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  /* Styling the navigation bar */
+  nav {
+    background-color: #333; /* Change this to your desired background color */
+  }
+  
+  nav a {
+    display: inline-block;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: white; /* Change this to your desired text color */
+  }
+  
+  nav a:hover {
+    background-color: #555; /* Change this to your desired hover background color */
+  }
+  
+  /* Centering the navigation links */
+  nav ul {
+    text-align: center;
+  }
+  
+  nav li {
+    display: inline;
+    margin-right: 20px; /* Adjust the spacing between links */
+  }
+  
+  /* Making the navigation bar fixed at the top */
+  nav {
+    
+    top: 0;
+    width: 100%;
+  }
+  
+  /* Adding spacing between the header and the navigation bar */
+  h2 {
+    margin-bottom: 20px;
+  }
+   .button {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  input[type=text],input[type=password],input[type=number],input[type=email],
+  select,input[type=date],textarea
+  {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  label
+  {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+    font-weight: bold;
+  }
+
+  
+
+
+  

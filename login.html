@@ -1,0 +1,85 @@
+<html>
+
+<head>
+<title>MSWD</title>
+<style>
+ 
+  body
+  {
+     background-image: url("images/bgimage.jpg") ;
+     background-repeat: no-repeat;
+     background-size: cover;
+  }
+
+    .navbar
+    {
+        background-color: lightgray;
+        padding: 10px;
+    }
+ 
+    form {
+      width: 300px;
+      margin: 0 auto;
+      background-color: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+  
+    input[type="email"],
+    input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      margin: 8px 0;
+      box-sizing: border-box;
+    }
+  
+    input[type="submit"] {
+      background-color: #4caf50;
+      color: white;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  
+    input[type="submit"]:hover {
+      background-color: #45a049;
+}
+</style>
+</head>
+
+<body>
+
+<h2 align="center" style="color:white">Student Information System</h2>
+
+
+<div class="navbar">
+<a href="index.html">Home</a>&nbsp;&nbsp;&nbsp;
+<a href="registration.html">Registration</a>&nbsp;&nbsp;&nbsp;
+<a href="login.html">Login</a>&nbsp;&nbsp;&nbsp;
+<a href="contact.html">Contact Us</a>&nbsp;&nbsp;&nbsp;
+<a href="https://newerp.kluniversity.in/" target="_blank">ERP</a>&nbsp;&nbsp;&nbsp;
+</div>
+
+
+<br><br>
+
+<form method="post" action="studenthome.html">
+
+Enter Email Address<input type="email" name="emailid" required/><br/>
+Enter Password<input type="password" name="pwd" required/><br/>
+<input type="submit" value="Login"/>
+
+</form>
+
+<br>
+
+<p style="text-align: center;color:white">
+New User ? <a href="registration.html">Register Here</a>
+</p>
+
+
+</body>
+
+</html>
